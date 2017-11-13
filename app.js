@@ -27,11 +27,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function testMultiply(a,b){ //eslint-disable-line
-    var multiplies = a * b;
-    var stringMultiply= 'The product of ' + a + ' and ' + b + ' is ' + multiplies + '.';
-    console.log(stringMultiply);
-    var array = [multiplies, stringMultiply];
-  };
+  var multiplies = a * b;
+  var stringMultiply= 'The product of ' + a + ' and ' + b + ' is ' + multiplies + '.';
+  console.log(stringMultiply);
+  var array = [multiplies, stringMultiply];
+};
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
